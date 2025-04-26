@@ -1,0 +1,31 @@
+ body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: gold; /* Change background color to gold */
+    color: #333; /* Change text color to a darker shade for contrast */
+}
+
+#hoverBox {
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: lightblue;
+    line-height: 100px;
+}
+
+#gallery img {
+    width: 200px;
+    height: auto;
+}
+
+#someSelector {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#hoverBox:hover {
+    background-color: lightcoral;
+    color:brown;
+}
